@@ -1,0 +1,7 @@
+<h3>Hello <%= @user.first_name%> <%= @user.last_name %>!</h3>
+
+You have created a new job successfully.
+You can access your job in here.
+<%= link_to FRONTEND_URL + '/recruiting/jobs/' + @job.id.to_s + '/edit', target: '_blank' do %>
+    <h6><%= @job.title%></h6>
+<% end %>

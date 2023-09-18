@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  applicant_id: 
+  note_type: MyString
+  description: MyText
+  responsiblity_score: 1
+  growing_score: 1
+  culture_score: 1
+  hire_applicant: false
+  homework_score: 1
+  session_score: 1
+  status: MyString
+
+two:
+  applicant_id: 
+  note_type: MyString
+  description: MyText
+  responsiblity_score: 1
+  growing_score: 1
+  culture_score: 1
+  hire_applicant: false
+  homework_score: 1
+  session_score: 1
+  status: MyString

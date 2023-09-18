@@ -1,0 +1,8 @@
+<h3>Hello <%= @user.first_name%> <%= @user.last_name %>!</h3>
+
+You’ve been added to Welcome HR, this system organizes all of the resources and FAQs across Welcome. To get started, .
+ <%= link_to FRONTEND_URL + '/reset-password/' + @user.reset_password_token, target: '_blank' do %>
+    <h6>Activate Account</h6>
+<% end %>
+
+Thank you!

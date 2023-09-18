@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team_id: 
+  title: MyString
+  role: MyString
+  responsibilities: MyText
+  compensation: 
+  homework_prompt: MyText
+  homework_pdf: MyString
+  applicant_requirement: MyString
+
+two:
+  team_id: 
+  title: MyString
+  role: MyString
+  responsibilities: MyText
+  compensation: 
+  homework_prompt: MyText
+  homework_pdf: MyString
+  applicant_requirement: MyString
